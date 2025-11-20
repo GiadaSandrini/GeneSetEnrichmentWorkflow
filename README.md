@@ -1,8 +1,8 @@
 # Gene Set Enrichment Workflow
 
-This repository contains utilities for pathway and gene-set enrichment, visualization, and biological interpretation. The R functions are designed to perform gene set enrichment analysis across multiple comparisons and improve the biological interpretability of results. The workflow allows grouping pathways into predefined biological categories and visualizing multiple comparisons at once, making it easier to interpret complex data.
+This repository contains utilities for pathway and gene-set enrichment, visualization, and biological interpretation. The R functions included in `Enrichment_analysis_functions.R` are designed to perform gene set enrichment analysis across multiple comparisons and improve the biological interpretability of results. The workflow allows grouping pathways into predefined biological categories and visualizing multiple comparisons at once, making it easier to interpret complex data.
 
-The R Markdown file included in this repository illustrates a complete example of the workflow, and the corresponding HTML file shows the rendered output.
+The R Markdown file `Workflow.Rmd` included in this repository illustrates a complete example of the workflow, and the corresponding HTML file shows the rendered output.
 This workflow is based on four main functions, which respectively handle the preparation of gene sets, the identification of DE parameters, the computation of enrichment analyses, and the visualization of results.
 
 ---
